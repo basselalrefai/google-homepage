@@ -26,7 +26,7 @@
     float: right;
 }
 
-.nav-bar-link {
+.bar-link {
     text-decoration: none;
     color: #262626;
     display: block;
@@ -82,4 +82,22 @@
 .search-btn-text {
     font-size: 1rem;
     color: rgba(0, 0, 0, 0.7);
+}
+
+/* Footer */
+.footer-container {
+    grid-row-end: 4;
+    height: 20%;
+    align-self: end;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    font-size: 1rem;
+}
+
+.footer-bar-item-left {
+    float: left;
+}
+
+.footer-bar-item-right {
+    float: right;
 }
