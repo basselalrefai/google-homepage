@@ -1,6 +1,8 @@
 /* Universal */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
-
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 /* Main Content */
 .main-container {
@@ -45,7 +47,6 @@
 }
 
 .search-btn-text {
-    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     color: rgba(0, 0, 0, 0.7);
 }
